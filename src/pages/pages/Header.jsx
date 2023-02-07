@@ -1,5 +1,10 @@
 
-
+import { Link } from 'react-router-dom'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Button from 'react-bootstrap/Button';
 
 export const Header = () => {
     const MENU = [
@@ -16,7 +21,7 @@ export const Header = () => {
           <Navbar.Brand>
              <Link to="/">
              <img
-                  src="../img/logo.png"
+                  src="../logo.png"
                   height="auto"
                   className="d-inline-block align-left"
                   alt="this is the logo"

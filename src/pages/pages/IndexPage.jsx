@@ -1,15 +1,15 @@
-//import { Header } from "./Header"
-
-import { Navbar } from "../../components"
+import { HomeCarousel } from "./HomeCarousel"
+import { Header } from "./Header"
+import { Footer } from "./Footer"
 
 
 
 export const IndexPage = () => {
   return (
     <>
-      <Navbar/>
-      <div>body</div>
-      <div>footer</div>
+      <header> <Header /></header>
+      <main><HomeCarousel /></main>
+      <footer><Footer /></footer>
     </>
   )
 }
