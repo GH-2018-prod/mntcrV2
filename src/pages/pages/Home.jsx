@@ -2,9 +2,7 @@ import { HomeCarousel } from "./HomeCarousel"
 import { Header } from "./Header"
 import { Footer } from "./Footer"
 
-
-
-export const IndexPage = () => {
+export const Home = () => {
   return (
     <>
       <header> <Header /></header>

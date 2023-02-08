@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import { LogInPage } from "../auth"
-import { IndexPage } from "../pages"
-
+import { Faqs, Home, TeachersNativos, Testimonios } from "../pages"
+import { Classes } from "../pages/pages/Classes"
 
 
 export const AppRouter = () => {
@@ -10,8 +10,12 @@ export const AppRouter = () => {
   return (
 
     <Routes>
-      <Route path="/auth/*" element={ <LogInPage/>}/>
-      <Route path="/*" element={ <IndexPage/>}/>
+      <Route path="/auth/*" element={ <LogInPage />}/>
+      <Route path="/" element={ <Home/>}/>
+      <Route path="/teachers" element={ <TeachersNativos />}/>
+      <Route path="/clases" element={ <Classes />}/>
+      <Route path="/faqs" element={ <Faqs />}/>
+      <Route path="/testimonios" element={ <Testimonios />}/>
 
     </Routes>
     

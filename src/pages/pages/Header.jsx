@@ -12,7 +12,7 @@ export const Header = () => {
         {path:'/teachers',name: 'Teachers Nativos'},
         {path:'/clases',name: 'Clases'},
         {path:'/faqs',name: 'FAQs'},
-        {path:'/',name: 'Testimonios'}
+        {path:'/testimonios',name: 'Testimonios'}
         
       ];
       return (  
